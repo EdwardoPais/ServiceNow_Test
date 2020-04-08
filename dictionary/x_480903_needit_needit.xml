@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="NeedIt" max_length="40" name="x_480903_needit_needit" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="New Audio" max_length="40" name="u_audio_5" type="audio"/>
+        <element label="New True/False" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Choice 3" label="New Choice" max_length="40" name="u_choice_6" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="New Currency" max_length="20" name="u_currency_7" type="currency"/>
+        <element label="New Due Date" mandatory="true" max_length="40" name="u_due_date_8" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="u_glide_date_time_3" type="glide_date_time"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_10" read_only="true" reference="cmdb_ci_appl" type="glide_list"/>
+        <element label="New IP Address (Validated IPV4, IPV6)" max_length="40" name="u_ip_addr_4" type="ip_addr"/>
+        <element label="New Reference" max_length="32" name="u_reference_2" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="base_start=true" label="New Table Name" max_length="80" name="u_table_name_9" type="table_name"/>
+        <index name="index">
+            <element name="u_reference_2"/>
+        </index>
+    </element>
+</database>
