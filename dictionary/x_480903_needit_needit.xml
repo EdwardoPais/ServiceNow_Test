@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="NeedIt" max_length="40" name="x_480903_needit_needit" type="collection">
+    <element audit="true" label="NeedIt" max_length="40" name="x_480903_needit_needit" type="collection">
+        <element label="Audio Test" max_length="40" name="audio_test" type="audio"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Teste" max_length="40" name="teste" type="string"/>
         <element label="New Audio" max_length="40" name="u_audio_5" type="audio"/>
         <element label="New True/False" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" default="Choice 3" label="New Choice" max_length="40" name="u_choice_6" type="string">
             <choice>
                 <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
