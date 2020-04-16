@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_ribbon_setting">
+    <sys_aw_ribbon_setting action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attrs/>
+        <component display_value="CMDB Relationships">d98a075773102300ee4dd3c72bf6a767</component>
+        <name>Bee2LOL - Relationships</name>
+        <order>1</order>
+        <sys_class_name>sys_aw_ribbon_setting</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 15:08:49</sys_created_on>
+        <sys_id>bcc0af7b2f00101002cfea5ef699b631</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bee2LOL - Relationships</sys_name>
+        <sys_package display_value="NeedIt" source="x_480903_needit">ccf4ee912fc0101002cfea5ef699b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">ccf4ee912fc0101002cfea5ef699b60c</sys_scope>
+        <sys_update_name>sys_aw_ribbon_setting_bcc0af7b2f00101002cfea5ef699b631</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 15:08:49</sys_updated_on>
+        <table>u_cmdb_ci_bee2lol</table>
+        <tag>sn-cmdb-relationship-card</tag>
+        <width>3</width>
+    </sys_aw_ribbon_setting>
+    <sys_variable_value action="delete_multiple" query="document_key=bcc0af7b2f00101002cfea5ef699b631"/>
+</record_update>

@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="NeedIt" max_length="40" name="x_480903_needit_x_123480903_needit_needit" type="collection"/>
+    <element extends="task" label="NeedIt" max_length="40" name="x_480903_needit_x_123480903_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Teste" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Verdadeiro" sequence="0" value="verdadeiro"/>
+                <element inactive_on_update="false" label="Falso" sequence="1" value="falso"/>
+            </choice>
+        </element>
+    </element>
 </database>
